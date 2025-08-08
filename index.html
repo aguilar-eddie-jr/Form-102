@@ -11,32 +11,29 @@
   <hr>
   <div align="center">
   <form>
-    <fieldset style="border: 2px solid black; width:500px;">
+    <fieldset style="width:500px;">
       <legend><strong>Membership Form</strong></legend>
         <table cellspacing="10" cellpadding="5" width="500px">
           <tr>
               <td><label for="Name"><strong>Name:</strong></label></td>
-              <td><input type="text" id="name" name="Name" placeholder="Enter your name.." required style="border: 2px solid black;"></td>
+              <td><input type="text" id="name" name="Name" placeholder="Enter your name.." required ></td>
               <td><label for="height"><strong>Height:</strong></label></td>
-              <td><input type="number" id="height" name="Height" placeholder="ft." required style="border: 2px solid black;"></td>
+              <td><input type="number" id="height" name="Height" placeholder="ft." required ></td>
           </tr>
           <tr>
               <td><label for="Age"><strong>Age:</strong></label></td>
-              <td><input type="number" id="age" name="Age" min="15" max="70" placeholder="15-70" required style="border: 2px solid black;"></td>
+              <td><input type="number" id="age" name="Age" min="15" max="70" placeholder="15-70" required ></td>
               <td><label for="Weight"><strong>Weight:</strong></label></td>
-              <td><input type="number" id="weight" name="Weight" placeholder="kg." required style="border: 2px solid black;"></td>
+              <td><input type="number" id="weight" name="Weight" placeholder="kg." required ></td>
           </tr>
           <tr>
               <td><label for="Email"><strong>Email:</strong></label></td>
-              <td colspan="3"><input type="email" id="email" name="Email" placeholder="aguilareddie2323@gmail.com" required style="border: 2px solid black;"></td>
+              <td colspan="3"><input type="email" id="email" name="Email" placeholder="aguilareddie2323@gmail.com" required ></td>
           </tr>
-          <tr>
-              <td><label for="contact"><strong>Contact:</strong></label></td>
-              <td><input type="tel" id="contact" name="contact" placeholder="0-994-742-0066" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required style="border: 2px solid black;"></td>
-          </tr>
+          
           <tr>
               <td colspan="3"><label for="membershiptime"><strong>Membership Time:</strong></label>
-                 <select name="MembershipTime" id="membershiptime" required style="border: 2px solid black;">
+                 <select name="MembershipTime" id="membershiptime" required >
                      <option value="1month">1 Month</option>
                      <option value="2months">2 Months</option>
                      <option value="3months">3 Months</option>
@@ -49,8 +46,8 @@
              <td colspan="3">
                 <hr>
                 <label for="Message"><strong>Message:</strong></label>
-                <textarea id="message" name="Message" rows="7" cols="50" placeholder="Ask anything you want.." style="resize: none; border: 2px solid black;"></textarea>
-                <input type="submit" value="submit" style="border: 2px solid black; font-weight: bold; width: 69px; height: 30px;">
+                <textarea id="message" name="Message" rows="7" cols="50" placeholder="Ask anything you want.." style="resize: none;"></textarea>
+                <input type="submit" value="submit" width="69px" height="30px" >
             </td>
           </tr>
         </table>
@@ -58,6 +55,5 @@
   </form>
  </div>
  <hr>
- <p align="center">by eddie</p>
 </body>
 </html>
